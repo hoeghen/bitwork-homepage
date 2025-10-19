@@ -60,7 +60,7 @@ const About = () => {
                 <Target className="text-primary mb-4" size={40} />
                 <h3 className="text-2xl font-semibold text-foreground mb-3">Vores Fokus</h3>
                 <p className="text-muted-foreground">
-                  Vi fokuserer 100% på SMV'er i Danmark. Det betyder, at vi forstår de unikke udfordringer 
+                  Vi fokuserer 100% på små og mellemstore virksomheder i Danmark. Det betyder, at vi forstår de unikke udfordringer 
                   og muligheder, der findes i denne sektor.
                 </p>
               </div>
@@ -69,7 +69,7 @@ const About = () => {
                 <TrendingUp className="text-primary mb-4" size={40} />
                 <h3 className="text-2xl font-semibold text-foreground mb-3">Vores Vision</h3>
                 <p className="text-muted-foreground">
-                  Vi vil være den foretrukne IT-partner for SMV'er, der ønsker at vokse og innovere gennem 
+                  Vi vil være den foretrukne IT-partner for små og mellemstore virksomheder, der ønsker at vokse og innovere gennem 
                   strategisk brug af teknologi.
                 </p>
               </div>
@@ -84,7 +84,7 @@ const About = () => {
                 </div>
                 <div>
                   <div className="text-4xl font-bold mb-2">100%</div>
-                  <div className="opacity-90">Fokus på SMV'er</div>
+                  <div className="opacity-90">Fokus på små og mellemstore virksomheder</div>
                 </div>
                 <div>
                   <div className="text-4xl font-bold mb-2">End-to-End</div>

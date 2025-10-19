@@ -22,7 +22,7 @@ const Index = () => {
                 til Kontrol
               </h1>
               <p className="text-2xl md:text-3xl text-muted-foreground font-medium leading-relaxed">
-                Vi løser SMV'ers IT-udfordringer med komplette end-to-end løsninger
+                Vi løser små og mellemstore virksomheders IT-udfordringer med komplette end-to-end løsninger
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 25 års erfaring • Personlig service • Alt inkluderet
@@ -146,7 +146,7 @@ const Index = () => {
                 <CheckCircle size={48} className="mx-auto mb-4 opacity-90" />
                 <h3 className="text-2xl font-bold">Hurtige & Billige</h3>
                 <p className="opacity-90">
-                  Vores løsninger er designet til at være både hurtige at implementere og økonomisk fordelagtige for SMV'er.
+                  Vores løsninger er designet til at være både hurtige at implementere og økonomisk fordelagtige for små og mellemstore virksomheder.
                 </p>
               </div>
               <div className="space-y-2">

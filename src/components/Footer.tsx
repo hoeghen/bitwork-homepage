@@ -15,7 +15,7 @@ const Footer = () => {
               <span className="font-bold text-xl text-foreground">bitwork.dk</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Professionelle IT-løsninger til SMV'er i Danmark. 25 års erfaring med end-to-end systemer.
+              Professionelle IT-løsninger til små og mellemstore virksomheder i Danmark. 25 års erfaring med end-to-end systemer.
             </p>
           </div>
 
