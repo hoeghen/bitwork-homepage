@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
 import ProcessStep from "@/components/ProcessStep";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-image.jpg";
+import itIllustration from "@/assets/it-solution-illustration.png";
 
 const Index = () => {
   return (
@@ -13,49 +13,39 @@ const Index = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-hero opacity-5"></div>
+      <section className="relative pt-32 pb-20 overflow-hidden bg-background">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6 animate-fade-in">
-              <h1 className="text-5xl md:text-6xl font-bold text-foreground leading-tight">
-                Din IT-Strategi starter her
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="space-y-8 animate-fade-in">
+              <h1 className="text-6xl md:text-7xl lg:text-8xl font-black text-foreground leading-none tracking-tight">
+                Fra Kaos<br />
+                til Kontrol
               </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed">
-                Komplette end-to-end IT-løsninger til små og mellemstore virksomheder. 
-                Med 25 års erfaring leverer vi hurtige, billige løsninger inkl. hosting og vedligeholdelse.
+              <p className="text-2xl md:text-3xl text-muted-foreground font-medium leading-relaxed">
+                Vi løser SMV'ers IT-udfordringer med komplette end-to-end løsninger
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                25 års erfaring • Personlig service • Alt inkluderet
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link to="/kontakt">
-                  <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity shadow-medium text-lg px-8">
+                  <Button size="lg" className="text-lg px-10 py-6 font-bold">
                     Få en uforpligtende IT-strategi
                     <ArrowRight className="ml-2" size={20} />
                   </Button>
                 </Link>
                 <Link to="/ydelser">
-                  <Button size="lg" variant="outline" className="text-lg px-8">
+                  <Button size="lg" variant="outline" className="text-lg px-10 py-6 font-bold">
                     Se vores ydelser
                   </Button>
                 </Link>
               </div>
-              <div className="flex items-center space-x-6 pt-8">
-                <div>
-                  <div className="text-4xl font-bold text-primary">25+</div>
-                  <div className="text-sm text-muted-foreground">Års erfaring</div>
-                </div>
-                <div className="h-12 w-px bg-border"></div>
-                <div>
-                  <div className="text-4xl font-bold text-primary">100%</div>
-                  <div className="text-sm text-muted-foreground">Danske løsninger</div>
-                </div>
-              </div>
             </div>
             <div className="relative animate-fade-in">
-              <div className="absolute -inset-4 bg-gradient-primary opacity-10 rounded-3xl blur-3xl"></div>
               <img 
-                src={heroImage} 
-                alt="IT-konsultation og strategi" 
-                className="relative rounded-2xl shadow-strong w-full"
+                src={itIllustration} 
+                alt="Fra IT-kaos til organiseret løsning - visualisering af bitwork.dk's end-to-end service" 
+                className="relative w-full"
               />
             </div>
           </div>
@@ -63,10 +53,10 @@ const Index = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-background">
+      <section className="py-24 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground">Vores Ekspertise</h2>
+            <h2 className="text-5xl md:text-6xl font-black text-foreground">Vores Ekspertise</h2>
             <p className="text-xl text-muted-foreground">
               Vi leverer IT-løsninger, der virker. Fra strategi til implementering - alt samlet i én pakke.
             </p>
@@ -97,10 +87,10 @@ const Index = () => {
       </section>
 
       {/* Process Section */}
-      <section className="py-20">
+      <section className="py-24 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground">Sådan arbejder vi</h2>
+            <h2 className="text-5xl md:text-6xl font-black text-foreground">Sådan arbejder vi</h2>
             <p className="text-xl text-muted-foreground">
               IT er mere end teknologi - det er strategi. Vi starter med et besøg hos jer for at skræddersy den perfekte pakkeløsning.
             </p>
@@ -172,10 +162,10 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-subtle">
+      <section className="py-24 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-8">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+            <h2 className="text-5xl md:text-6xl font-black text-foreground">
               Klar til at transformere jeres IT?
             </h2>
             <p className="text-xl text-muted-foreground">
