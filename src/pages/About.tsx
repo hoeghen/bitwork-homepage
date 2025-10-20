@@ -31,7 +31,7 @@ const About = () => {
               </p>
 
               <p className="text-lg leading-relaxed">
-                Vores tilgang er unik: Vi starter altid med at besøge vores kunder og forstå deres specifikke 
+                Vores tilgang er unik: Vi starter altid med et online møde for at forstå vores kunders specifikke 
                 udfordringer. Derefter udarbejder vi en skræddersyet IT-strategi, der ikke kun løser dagens problemer, 
                 men også forbereder virksomheden på fremtidens muligheder.
               </p>
