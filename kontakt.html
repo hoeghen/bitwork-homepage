@@ -170,7 +170,7 @@
     <div id="footer-placeholder"></div>
 
     <script>
-        fetch('_navigation.html')
+        fetch('/bitwork-homepage/_navigation.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('navigation-placeholder').innerHTML = data;
@@ -180,7 +180,7 @@
                     mobileMenu.classList.toggle('hidden');
                 });
             });
-        fetch('_footer.html')
+        fetch('/bitwork-homepage/_footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer-placeholder').innerHTML = data;
