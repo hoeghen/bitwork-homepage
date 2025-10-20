@@ -49,8 +49,8 @@ const Contact = () => {
               <div>
                 <h2 className="text-3xl font-bold text-foreground mb-6">Få en gratis IT-konsultation</h2>
                 <p className="text-muted-foreground leading-relaxed mb-8">
-                  Vi tror på den personlige tilgang. Kontakt os i dag, så kommer vi forbi og laver en 
-                  grundig analyse af jeres IT-behov. Sammen finder vi den optimale løsning til jeres virksomhed.
+                  Vi tror på den personlige tilgang. Kontakt os i dag, så afholder vi et uforpligtende online møde 
+                  og laver en grundig analyse af jeres IT-behov. Sammen finder vi den optimale løsning til jeres virksomhed.
                 </p>
               </div>
 
@@ -89,7 +89,7 @@ const Contact = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="text-accent mr-2">2.</span>
-                    <span>Vi aftaler et uforpligtende besøg hos jer</span>
+                    <span>Vi aftaler et uforpligtende online møde</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-accent mr-2">3.</span>
