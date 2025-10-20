@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div id="navigation-placeholder"></div>
@@ -216,7 +217,8 @@
     <div id="footer-placeholder"></div>
 
     <script>
-        fetch('/bitwork-homepage/_navigation.html')
+        const basePath = window.location.pathname.includes('/bitwork-homepage/') ? '/bitwork-homepage' : '';
+        fetch(`${basePath}/_navigation.html`)
             .then(response => response.text())
             .then(data => {
                 document.getElementById('navigation-placeholder').innerHTML = data;
@@ -226,7 +228,7 @@
                     mobileMenu.classList.toggle('hidden');
                 });
             });
-        fetch('/bitwork-homepage/_footer.html')
+        fetch(`${basePath}/_footer.html`)
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer-placeholder').innerHTML = data;
