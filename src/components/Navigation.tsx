@@ -23,8 +23,8 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img src={logo} alt="bitwork.dk logo" className="w-10 h-10" />
-            <span className="font-bold text-xl text-foreground">bitwork.dk</span>
+            <img src={logo} alt="bitwork.dk logo" className="w-16 h-16" />
+            <span className="font-bold text-2xl text-foreground">bitwork.dk</span>
           </Link>
 
           {/* Desktop Navigation */}
