@@ -85,7 +85,7 @@ const Contact = () => {
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-start">
                     <span className="text-accent mr-2">1.</span>
-                    <span>Vi kontakter dig inden for 24 timer</span>
+                    <span>Vi kontakter dig</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-accent mr-2">2.</span>
