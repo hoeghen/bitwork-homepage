@@ -6,38 +6,14 @@ import ServiceCard from "@/components/ServiceCard";
 import ProcessStep from "@/components/ProcessStep";
 import { Button } from "@/components/ui/button";
 import itIllustration from "@/assets/it-solution-illustration.png";
-import logoConcept1 from "@/assets/logo-concept-1.png";
-import logoConcept2 from "@/assets/logo-concept-2.png";
-import logoConcept3 from "@/assets/logo-concept-3.png";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-subtle">
       <Navigation />
       
-      {/* Logo Concepts Section */}
-      <section className="pt-32 pb-12 bg-muted">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-black text-center mb-12">Logo Koncepter</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <div className="bg-card p-8 rounded-xl border border-border shadow-soft">
-              <img src={logoConcept1} alt="Logo koncept 1" className="w-full mb-4" />
-              <p className="text-center text-sm text-muted-foreground">Koncept 1: Geometrisk struktur</p>
-            </div>
-            <div className="bg-card p-8 rounded-xl border border-border shadow-soft">
-              <img src={logoConcept2} alt="Logo koncept 2" className="w-full mb-4" />
-              <p className="text-center text-sm text-muted-foreground">Koncept 2: Modern "B"</p>
-            </div>
-            <div className="bg-card p-8 rounded-xl border border-border shadow-soft">
-              <img src={logoConcept3} alt="Logo koncept 3" className="w-full mb-4" />
-              <p className="text-center text-sm text-muted-foreground">Koncept 3: Digital grid</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Hero Section */}
-      <section className="relative pt-20 pb-20 overflow-hidden bg-background">
+      <section className="relative pt-32 pb-20 overflow-hidden bg-background">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8 animate-fade-in">
