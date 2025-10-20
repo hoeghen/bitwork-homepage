@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, MapPin, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -63,18 +63,6 @@ const Contact = () => {
                     <h3 className="font-semibold text-foreground mb-1">Email</h3>
                     <a href="mailto:kontakt@bitwork.dk" className="text-muted-foreground hover:text-primary transition-colors">
                       kontakt@bitwork.dk
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-4 p-6 bg-card rounded-xl border border-border shadow-soft">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-primary flex items-center justify-center flex-shrink-0">
-                    <Phone className="text-primary-foreground" size={24} />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-1">Telefon</h3>
-                    <a href="tel:+4512345678" className="text-muted-foreground hover:text-primary transition-colors">
-                      +45 12 34 56 78
                     </a>
                   </div>
                 </div>
