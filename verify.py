@@ -15,7 +15,7 @@ async def main():
             if filename.endswith(".html") and not filename.startswith("_") and filename != "404.html":
                 await page.goto(f"http://localhost:8000/{filename}")
                 try:
-                    await page.wait_for_selector('img[alt="bitwork.dk logo"]', timeout=5000)
+                    await page.wait_for_selector('img[alt="bitwork logo"]', timeout=5000)
                     await page.screenshot(path=f"screenshots/{filename}.png", full_page=True)
                 except TimeoutError:
                     print(f"Could not find logo on {filename}, skipping screenshot.")
